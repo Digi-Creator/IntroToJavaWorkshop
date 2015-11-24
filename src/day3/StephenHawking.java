@@ -2,7 +2,15 @@ package day3;
 
 import java.io.IOException;
 
-public class StephenHawking {
+import javax.swing.JOptionPane;
+
+public class StephenHawking { public static void main(String[] args) { 
+	for (int i = 0; i < 15; i++) { String answer = JOptionPane.showInputDialog("Hello, do you know my name?");
+	speak (answer);
+		
+	}
+	
+}
 
 	// 1. make a main method and put steps 2, 3 & 4 inside it
 	// 2. ask the user for a sentence
